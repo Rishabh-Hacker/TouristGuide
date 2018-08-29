@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wallpaper"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select source language"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+    <Spinner android:id="@+id/srcLanguage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#54ffffff" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select destination language"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+    <Spinner android:id="@+id/dstLanguage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#58ffffff" />
+    <Button android:id="@+id/btnTranslation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="transalationButtonClicked"
+        android:text="Translate"
+        android:layout_gravity="bottom"
+        />
+</LinearLayout>
